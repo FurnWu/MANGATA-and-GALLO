@@ -1,0 +1,115 @@
+body {
+   background-color: lightsteelblue;
+   font-family: Garamond, serif;
+   color: whitesmoke;
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+
+h1 {
+   font-size: 3rem;
+   color: white;
+   margin-top: 1%;
+}
+
+h2 {
+   font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+
+.promotion {
+  background-image: url("promotion.jpg");
+  background-size: cover;
+  height: 100%;
+  opacity: 85%;
+}
+
+.promotion p {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.promotion:hover {
+  opacity: 100%;
+  scale: 101%;
+}
+
+ nav ul {
+   display: flex;
+   justify-content: space-around;
+    background-color: #171717;
+    list-style: none;
+    font-family: Garamond, serif; 
+    font-size: 1.8rem;
+    padding: 0.6rem;
+ }
+
+ a:link {
+   color: white;
+   text-decoration: none;
+ }
+ a:visited {
+   color: white;
+   text-decoration: none;
+ }
+ a:hover {
+   color: slategray;
+   text-decoration: none;
+ }
+ a:active {
+   color: #171717;
+   background-color: whitesmoke;
+   text-decoration: underline;
+ }
+
+ section {
+   display: flex;
+ }
+
+ article {
+   flex: 1;
+   margin: 1rem;
+   padding: 1.5rem;
+   border-radius: 1em;
+   background-color: #171717;
+   text-align: justify;
+ }
+
+ article:hover {
+  color: #171717;
+  background-color: slategray;
+ }
+
+ article > img {
+   width: 100%;
+ }
+
+ div > img {
+   width: 20%;
+ }
+
+footer {
+   display: flex;
+}
+
+footer div {
+   flex: 1;
+   margin-top: 2rem;
+}
+
+footer div p {
+   text-align: right;
+   color: #171717;
+   font-weight: bold;
+}
